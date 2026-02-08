@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #014E56;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Livvic', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+}
+
+h1, h2, h3 {
+    font-family: 'Livvic', sans-serif;
+    font-weight: 700;
+}
+
+.highlight {
+    color: #F67E7E;
+}
+
+/*Mobile*/
+header {
+    width: 327px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 50px auto;
+}
+
+.logo {
+    width: 128px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #F67E7E;
+}
