@@ -1,4 +1,6 @@
 .hero-container {
+    width: 100%;
+    max-width: 375px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,12 +23,14 @@
 }
 
 .hero-pattern {
-    width: 375px;
+    width: 100%;
+    max-width: 375px;
 }
 
 .content-container {
     background-color: #012F34;
-    width: 375px;
+    width: 100%;
+    max-width: 375px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -62,6 +66,50 @@
     position: absolute;
     top: 0;
     right: -100px;
-    overflow: hidden;
 }
 
+.content-card {
+    display: flex; 
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card h3 {
+    color: #F67E7E;
+    font-size: 1.3rem;
+    margin: 20px 0;
+    line-height: 28px;
+}
+
+.card p {
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+
+.stories-container {
+    width: 100%;
+    max-width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.stories-pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.stories-heading {
+    width: 325px;
+    margin-top: 150px;
+}
