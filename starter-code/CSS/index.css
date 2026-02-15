@@ -1,6 +1,7 @@
+/*hero section*/
 .hero-container {
     width: 100%;
-    max-width: 375px;
+    max-width: 430px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,10 +28,12 @@
     max-width: 375px;
 }
 
+
+/*content section*/
 .content-container {
     background-color: #012F34;
     width: 100%;
-    max-width: 375px;
+    max-width: 430px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -93,9 +96,11 @@
     margin-bottom: 50px;
 }
 
+
+/*stories section*/
 .stories-container {
     width: 100%;
-    max-width: 375px;
+    max-width: 430px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -104,12 +109,54 @@
 }
 
 .stories-pattern {
-    position: absolute;
-    top: 0;
-    left: 0;
+    align-self: flex-start;
 }
 
 .stories-heading {
     width: 325px;
-    margin-top: 150px;
+    margin-top: 50px;
+    margin-bottom: 25px;
 }
+
+.stories-heading h2 {
+    font-size: 2rem;
+    line-height: 32px;
+}
+
+.highlight2 {
+    color: #79C8c7;
+}
+
+.user-story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.user-story h3 {
+    color: #79C8C7;
+    margin: 20px 0 2px 0;
+}z
+
+.user-story span {
+    color: #ffffff;
+    font-weight: 500;
+    line-height: 18px;
+    font-size: 0.9em;
+    margin: 2px;
+}
+
+.avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid #79C8C7;
+    margin: 10px;
+}
+
+.stories-pattern2 {
+    align-self: flex-end;
+}
+
