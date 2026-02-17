@@ -161,3 +161,9 @@
     align-self: flex-end;
 }
 
+
+
+/*tablet*/
+@media (min-width: 768px) {
+    
+}
