@@ -139,7 +139,7 @@
 .user-story h3 {
     color: #79C8C7;
     margin: 20px 0 2px 0;
-}z
+}
 
 .user-story span {
     color: #ffffff;
@@ -165,5 +165,125 @@
 
 /*tablet*/
 @media (min-width: 768px) {
-    
+    .hero-container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .hero-section {
+        width: 685px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px 0 100px 0;
+    }
+
+    .hero-section h1 {
+        line-height: 56px;
+        margin-bottom: 30px;
+        font-size: 3.5em;
+        padding: 0 150px;
+    }
+
+    .hero-section p {
+        line-height: 28px;
+        font-size: .8em;
+        width: 457px;
+    }
+
+    .content-container {
+        max-width: 100%;
+    }
+
+    .content-heading {
+        width: 500px;
+        font-size: 1em;
+        padding-top: 30px;
+        top: 60px;
+        left: -40px;
+    }
+
+    .content-heading h2 {
+        width: 500px;
+    }
+
+    .content-pattern {
+        position: absolute;
+        top: 0;
+        right: -100px;
+    }
+
+    .content-card {
+        display: flex; 
+        flex-direction: column;
+        margin: 100px;
+        width: 575px;
+    }
+
+    .card {
+        display: block;
+        flex-direction: row;
+        text-align: left;
+        margin: 20px 0;
+    }
+
+    .card h3 {
+        color: #F67E7E;
+        font-size: 1em;
+        margin: 0;
+    }
+
+    .card p {
+        line-height: 25px;
+        margin-bottom: 30px;
+        font-weight: 600;
+    }
+
+    .card-icon {
+        float: left;
+    }
+
+    .stories-container {
+        max-width: 100%;
+    }
+
+    .stories-heading {
+        width: 575px;
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+
+    .stories-heading h2 {
+        font-size: 2rem;
+        line-height: 32px;
+    }
+
+    .user-story {
+        width: 575px;
+    }
+
+    .user-story h3 {
+        color: #79C8C7;
+        margin: 20px 0 2px 0;
+    }
+
+    .user-story span {
+        color: #ffffff;
+        font-weight: 500;
+        line-height: 18px;
+        font-size: 0.9em;
+        margin: 2px;
+    }
+
+    .avatar {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        border: 3px solid #79C8C7;
+        margin: 10px;
+    }
+
+    .stories-pattern2 {
+        align-self: flex-end;
+    }
 }
