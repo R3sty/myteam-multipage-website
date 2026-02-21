@@ -286,6 +286,12 @@ p {
         margin: 10px 0;
     }
 
+    .nav-pattern {
+        position: absolute;
+        top: 500px;
+        right: -100px;
+    }
+
 
 
 /*tablet*/
