@@ -1,5 +1,5 @@
 * {
-    outline: 1px red solid;
+    
     margin: 0;
     padding: 0;
     font-family: 'Livvic', sans-serif;
@@ -242,6 +242,10 @@ p {
         left: 0;
     }
 
+    footer {
+        height: 271px;
+    }
+
     .footer-mobile, .footer-desktop {
         display: none;
     }
@@ -278,6 +282,10 @@ p {
 
     .desktop-nav {
         gap: 500px;
+    }
+
+    footer {
+        height: 196px;
     }
 
     .footer-mobile, .footer-tablet {
