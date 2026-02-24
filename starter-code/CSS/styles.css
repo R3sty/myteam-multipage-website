@@ -320,7 +320,7 @@ p {
         gap: 50px;
     }
 
-    .hamburger, .mobile-nav {
+    .hamburger-btn, .mobile-nav {
         display: none;
     }
 

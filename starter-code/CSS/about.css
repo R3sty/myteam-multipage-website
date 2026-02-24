@@ -145,6 +145,14 @@
     border-radius: 50%;
 }
 
+.directors-profile.active .card-front {
+    display: none;
+}
+
+.directors-profile.active .card-back {
+    display: flex;
+}
+
 
 /*client-container*/
 .clients-container {
