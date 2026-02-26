@@ -11,9 +11,8 @@ body {
     font-weight: 600;
     font-size: 18px;
     color: white;
-    overflow-x: hidden;
-    align-items: center;
-}/*adding align-items: center here causes a bug that limits the container to stretch*/
+    overflow-x: hidden;   
+}
 
 main {
     display: flex;
