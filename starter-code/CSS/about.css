@@ -309,6 +309,10 @@
         bottom: 0;
     }
 
+    .clients-container {
+        padding: 50px;
+    }
+
     .clients {
         max-width: 100%;
         width: 1110px;
@@ -317,5 +321,9 @@
 
     .client-logo {
         width: 180px;
+    }
+
+    .client-pattern {
+        top: 0;
     }
 }
