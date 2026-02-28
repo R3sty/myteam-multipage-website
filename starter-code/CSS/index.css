@@ -379,9 +379,11 @@
     }
 
     .stories {
-        width: 1110px;
+        width: 100%;
+        max-width: 1110px;
         gap: 5px;
         display: flex;
+        justify-content: space-between;
         flex-direction: row;
     }
 
@@ -391,6 +393,11 @@
 
     .stories-heading {
         font-size: 3rem;
+    }
+
+    .user-story {
+        width: 100%;
+        max-width: 350px;
     }
 
     .user-story p {

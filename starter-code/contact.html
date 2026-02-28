@@ -41,7 +41,7 @@
         </div>
       </div>
 
-      <div class="contact-form">
+      <form class="contact-form" action="#" method="post">
         <fieldset>
             <label for="name">Name</label>
             <input required type="text" id="name" name="name" placeholder="Name" pattern="[A-Za-z\s]+">
@@ -52,10 +52,10 @@
             <label for="title">Title</label>
             <input type="text" id="title" name="title" placeholder="Title">
             <label for="message">Message</label>
-            <textarea type="text" id="message" name="message" placeholder="Message" cols="60" rows="6"></textarea>
+            <textarea id="message" name="message" placeholder="Message" cols="60" rows="6"></textarea>
           </fieldset>
           <button type="submit" class="submit-btn">submit</button>
-      </div>
+      </form>
 
       <img src="./assets/bg-pattern-contact-2.svg" alt="background pattern" class="contact-pattern2">
     </div>
