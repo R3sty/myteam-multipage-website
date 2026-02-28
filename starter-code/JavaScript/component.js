@@ -1,5 +1,5 @@
-class SiteHeader extends HTMLElement {  /*i created a new class called SiteHeader using the syntax class, that would behave like a normal HTML element.*/
-    connectedCallback() { /*runs automatically when my custom element is added to the webpage. so it runs when <site-header></site-header> appears inside the html.*/
+class SiteHeader extends HTMLElement { 
+    connectedCallback() { 
         this.innerHTML = ` 
             <header>
                 <img src="./assets/logo.svg" alt="myteam logo" class="logo">
@@ -36,8 +36,8 @@ class SiteHeader extends HTMLElement {  /*i created a new class called SiteHeade
             </header>
         `;
 
-        const openBtn = this.querySelector(".hamburger-btn"); /*by using this. syntax it will search for this classes inside this custom element.dafe for multiple instances */
-        const closeBtn = this.querySelector(".close-btn"); /*If i used the document. syntax it may cause an incorrect behavior, because it will search the whole html for the class and if i have multiple classes with thte same name it will only affect the first one it will find and igonore the rest. document syntax is usually used for elements that is only used once or unique per page.*/
+        const openBtn = this.querySelector(".hamburger-btn"); 
+        const closeBtn = this.querySelector(".close-btn");
         const mobileNav = this.querySelector(".mobile-nav");
 
         openBtn.addEventListener("click", () => {
@@ -51,7 +51,7 @@ class SiteHeader extends HTMLElement {  /*i created a new class called SiteHeade
     }
 }
 
-customElements.define("site-header", SiteHeader); /*customElements is where you can store your new custom elements. With define("site-header", SiteHeader) i register the custom element site-header with the class SiteHeader.  */
+customElements.define("site-header", SiteHeader); 
 
 
 class SiteFooter extends HTMLElement {
@@ -155,4 +155,3 @@ class SiteFooter extends HTMLElement {
 }
 
 customElements.define("site-footer", SiteFooter);
-
