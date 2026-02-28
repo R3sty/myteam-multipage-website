@@ -18,7 +18,7 @@ class SiteHeader extends HTMLElement {
                     <li><a href="about.html">about</a></li>
                     </ul>
                     
-                    <a href="contact.html"><button class="contact-btn mobile-btn">contact us</button></a>
+                    <a href="contact.html" class="contact-btn mobile-btn">contact us</a>
 
                 </nav>
                 <img src="./assets/bg-pattern-about-1-mobile-nav-1.svg" alt="nav pattern" class="nav-pattern">
