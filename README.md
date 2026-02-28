@@ -1,6 +1,6 @@
 # Frontend Mentor - myteam website solution
 
-This is a solution to the [myteam website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/myteam-multipage-website-mxlEauvW). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [myteam website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/myteam-multipage-website-mxlEauvW). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -62,29 +62,30 @@ Desktop:
 - Mobile-first workflow
 - JavaScript
 
-
 ### What I learned
 
-With this project, I learned how to template headers and footers with Custom Elements to create reusable components for an organized, clean, and readable code. 
+With this project, I learned how to template headers and footers with Custom Elements to create reusable components for an organized, clean, and readable code.
 
 Writing organized code not only benefits me, but also other developers who would contribute to or collaborate on the same project, making it easier to understand the codebase.
 
 Sample snippets below:
 
 ```html
-<site-header></site-header>
-<site-footer></site-footer>
+<site-header></site-header> <site-footer></site-footer>
 ```
+
 The snippet above is the Custom Elements I used to create a reusable components to have an organized and clean code. This Custom Element was built with JavaScript.
 
 ```js
 class SiteHeader extends HTMLElement
 ```
+
 With this snippet I created a new class named "SiteHeader" that would behave like a normal HTML eleement.
 
 ```js
 customElements.define("site-header", SiteHeader);
 ```
+
 "customElements" is where we register the custom elements created. With define we register or associate the Custome element "site-header" with the class we created named "SiteHeader".
 
 With this Project I learned the difference between these two method below:
@@ -93,15 +94,13 @@ With this Project I learned the difference between these two method below:
 .querySelector()
 .querySelectorAll()
 ```
-with "querySelector()" it searches the entire document, returns only the frist match, and then stops once it finds the first match. But with "querySelectorAll()" it searches the entire document, returns all the matching elements and returns a NodeList.
 
+with "querySelector()" it searches the entire document, returns only the frist match, and then stops once it finds the first match. But with "querySelectorAll()" it searches the entire document, returns all the matching elements and returns a NodeList.
 
 ### Continued development
 
 I would like to focus on learning JavaScript on a deeper level to provide a better user experience and interaction in my future projects.
 
-
 ## Author
 
 - Website - [Ryan Suda](https://github.com/RyanSuda-Code)
-
