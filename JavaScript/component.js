@@ -27,12 +27,13 @@ class SiteHeader extends HTMLElement {
                 
 
                 <nav class="desktop-nav">
-                <ul>
-                    <li><a href="index.html">home</a></li>
-                    <li><a href="about.html">about</a></li>
-                </ul>
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="about.html">about</a></li>
+                    </ul>
 
-                <a href="contact.html"><button class="contact-btn">contact us</button></a>
+                    <a href="contact.html"><button class="contact-btn">contact us</button></a>
+                </nav>
             </header>
         `;
 
