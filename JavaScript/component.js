@@ -64,8 +64,8 @@ class SiteFooter extends HTMLElement {
                 
                 <nav class="footer-nav">
                     <ul>
-                    <a href="index.html"><li>home</li></a>
-                    <a href="about.html"><li>about</li></a>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="about.html">about</a></li>
                     </ul>
                 </nav>
 
@@ -92,8 +92,8 @@ class SiteFooter extends HTMLElement {
                 
                     <nav class="footer-nav">
                     <ul>
-                        <a href="index.html"><li>home</li></a>
-                        <a href="about.html"><li>about</li></a>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="about.html">about</a></li>
                     </ul>
                     </nav>
 
@@ -123,8 +123,8 @@ class SiteFooter extends HTMLElement {
                 
                     <nav class="footer-nav">
                         <ul>
-                        <a href="index.html"><li>home</li></a>
-                        <a href="about.html"><li>about</li></a>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="about.html">about</a></li>
                         </ul>
                     </nav>
                     </div>
