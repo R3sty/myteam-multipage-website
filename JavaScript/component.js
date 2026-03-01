@@ -59,7 +59,7 @@ class SiteFooter extends HTMLElement {
         this.innerHTML = `
             <footer>
                 <div class="footer-mobile">
-                <img src="./assets/logo.svg" alt="mytema logo" class="footer-logo">
+                <img src="./assets/logo.svg" alt="myteam logo" class="footer-logo">
                 
                 <nav class="footer-nav">
                     <ul>
