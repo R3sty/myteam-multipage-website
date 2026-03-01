@@ -31,20 +31,20 @@ Users should be able to:
 
 Mobile:
 
-![](./starter-code/assets/screenshots/MScreenshot%202026-02-28%20133540.png)
-![](./starter-code/assets/screenshots/MScreenshot%202026-02-28%20133555.png)
-![](./starter-code/assets/screenshots/MScreenshot%202026-02-28%20133613.png)
+![](./assets/screenshots/MScreenshot%202026-02-28%20133540.png)
+![](./assets/screenshots/MScreenshot%202026-02-28%20133555.png)
+![](./assets/screenshots/MScreenshot%202026-02-28%20133613.png)
 
 Tablet:
 
-![](./starter-code/assets/screenshots/TScreenshot%202026-02-28%20133714.png)
-![](./starter-code/assets/screenshots/TScreenshot%202026-02-28%20133736.png)
+![](./assets/screenshots/TScreenshot%202026-02-28%20133714.png)
+![](./assets/screenshots/TScreenshot%202026-02-28%20133736.png)
 
 Desktop:
 
-![](./starter-code/assets/screenshots/DScreenshot%202026-02-28%20132810.png)
-![](./starter-code/assets/screenshots/DScreenshot%202026-02-28%20132818.png)
-![](./starter-code/assets/screenshots/DScreenshot%202026-02-28%20133510.png)
+![](./assets/screenshots/DScreenshot%202026-02-28%20132810.png)
+![](./assets/screenshots/DScreenshot%202026-02-28%20132818.png)
+![](./assets/screenshots/DScreenshot%202026-02-28%20133510.png)
 
 ### Links
 
