@@ -1,0 +1,408 @@
+/*hero section*/
+.hero-container {
+    width: 100%;
+    max-width: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-section {
+    width: 327px;
+}
+
+.hero-section h1 {
+    line-height: 40px;
+    padding: auto;
+    margin-bottom: 10px;
+}
+
+.hero-section p {
+    line-height: 28px;
+    margin: 10px 0 50px 0;
+}
+
+.hero-pattern1 {
+    width: 100%;
+}
+
+.hero-pattern2 {
+    display: none;
+}
+
+
+/*content section*/
+.content-container {
+    background-color: #012F34;
+    width: 100%;
+    max-width: 430px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.inner-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-heading {
+    width: 240px;
+    text-align: left;
+    font-size: 2rem;
+    padding-top: 50px;
+    position: relative;
+    top: 60px;
+    left: -50px;
+}
+
+.content-heading h2 {
+    width: 240px;
+}
+
+.content-heading::before {
+    content: "";
+    height: 4px;
+    width: 50px;
+    background-color: #F67E7E;
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+
+.content-pattern1 {
+    position: absolute;
+    top: 0;
+    right: -100px;
+}
+
+.content-pattern2 {
+    display: none;
+}
+
+.content-card {
+    display: flex; 
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.card h3 {
+    color: #F67E7E;
+    font-size: 1.3rem;
+    margin: 20px 0;
+    line-height: 28px;
+}
+
+.card p {
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+
+
+/*stories section*/
+.stories-container {
+    width: 100%;
+    max-width: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.stories-pattern {
+    align-self: flex-start;
+}
+
+.stories-heading {
+    width: 325px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.stories-heading h2 {
+    font-size: 2rem;
+    line-height: 32px;
+}
+
+.highlight2 {
+    color: #79C8c7;
+}
+
+.user-story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.user-story h3 {
+    color: #79C8C7;
+    margin: 20px 0 2px 0;
+}
+
+.user-story span {
+    color: #ffffff;
+    font-weight: 500;
+    line-height: 18px;
+    font-size: 0.9em;
+    margin: 2px;
+}
+
+.avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid #79C8C7;
+    margin: 10px;
+}
+
+.stories-pattern2 {
+    align-self: flex-end;
+}
+
+
+
+/*tablet*/
+@media (min-width: 768px) {
+    .hero-container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .hero-section {
+        width: 685px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px 0 100px 0;
+    }
+
+    .hero-section h1 {
+        line-height: 56px;
+        margin-bottom: 30px;
+        font-size: 3.5em;
+        padding: 0 150px;
+    }
+
+    .hero-section p {
+        line-height: 28px;
+        font-size: .8em;
+        width: 457px;
+    }
+
+    .hero-pattern1 {
+        width: 360px;
+    }
+
+    .content-container {
+        max-width: 100%;
+    }
+
+    .content-heading {
+        width: 500px;
+        font-size: 1em;
+        padding-top: 30px;
+        top: 60px;
+        left: -40px;
+    }
+
+    .content-heading h2 {
+        width: 500px;
+    }
+
+    .content-pattern {
+        position: absolute;
+        top: 0;
+        right: -100px;
+    }
+
+    .content-card {
+        display: flex; 
+        flex-direction: column;
+        margin: 100px;
+        width: 575px;
+    }
+
+    .card {
+        display: block;
+        flex-direction: row;
+        text-align: left;
+        margin: 20px 0;
+    }
+
+    .card h3 {
+        color: #F67E7E;
+        font-size: 1em;
+        margin: 0;
+    }
+
+    .card p {
+        line-height: 25px;
+        margin-bottom: 30px;
+        font-weight: 600;
+    }
+
+    .card-icon {
+        float: left;
+        margin-right: 20px;
+    }
+
+    .stories-container {
+        max-width: 100%;
+    }
+
+    .stories-heading {
+        width: 575px;
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+
+    .stories-heading h2 {
+        font-size: 2rem;
+        line-height: 32px;
+    }
+
+    .user-story {
+        width: 575px;
+    }
+
+    .user-story h3 {
+        color: #79C8C7;
+        margin: 20px 0 2px 0;
+    }
+
+    .user-story span {
+        color: #ffffff;
+        font-weight: 500;
+        line-height: 18px;
+        font-size: 0.9em;
+        margin: 2px;
+    }
+
+    .avatar {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        border: 3px solid #79C8C7;
+        margin: 10px;
+    }
+
+    .stories-pattern2 {
+        align-self: flex-end;
+    }
+}
+
+/*desktop*/
+@media (min-width: 1024px) {
+    .hero-container {
+        max-width: 1110px;
+    }
+
+    .hero-section {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .hero-section h1 {
+        text-align: left;
+        line-height: 100px;
+        font-size: 6.25rem;
+        width: 550px;
+        padding: 0;
+    }
+
+    .hero-section p {
+        padding-top: 50px;
+        font-size: 1.2rem;
+        text-align: left;
+    }
+
+    .hero-pattern1 {
+        align-self: flex-end;
+    }
+
+    .hero-pattern2 {
+        display: flex;
+        position: absolute;
+        left: -110px;
+        top: 150px;
+        z-index: -1;
+    }
+
+    .content-container {
+        flex-direction: row;
+    }
+
+    .content-pattern1 {
+        display: none;
+    }
+
+    .content-pattern2 {
+        display: flex;
+        position: absolute;
+        right: -100px;
+        bottom: 0;
+    }
+
+    .content-heading, .content-heading h2 {
+        width: 400px;
+        font-size: 2.8rem;
+        line-height: 48px;
+        position: relative;
+        padding-top: 40px;
+        top: -90px;
+        left: 0;
+    }
+
+    .content-heading::before {
+        position: absolute;
+        top: -80px;
+        left: 0;
+    }
+
+    .stories {
+        width: 100%;
+        max-width: 1110px;
+        gap: 5px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .stories-heading {
+        width: 900px;
+    }
+
+    .stories-heading {
+        font-size: 3rem;
+    }
+
+    .user-story {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .user-story p {
+        font-size: .9rem;
+        line-height: 25px;
+    }
+}
+
